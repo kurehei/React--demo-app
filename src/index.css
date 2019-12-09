@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: sans-serif;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.hi {
+  position: absolute;
+  top: 300px;
+  transition: 1s;
+}
+
+
+.hi-entered {
+  transform: translateX(100%);
+  right: 300px;
+  width: 300px;
+  color: red;
+  background-color: blue;
 }
